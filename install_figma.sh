@@ -1,4 +1,5 @@
 clear
+cd /tmp
 latest_version=$(curl -fsSL "https://desktop.figma.com/mac/version.txt")
 intel_url="https://desktop.figma.com/mac/Figma-${latest_version}.zip"
 apple_silicon_url="https://desktop.figma.com/mac-arm/Figma-${latest_version}.zip"
