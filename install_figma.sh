@@ -1,3 +1,4 @@
+#!/bin/bash
 clear
 cd /tmp
 latest_version=$(curl -fsSL "https://desktop.figma.com/mac/version.txt")
